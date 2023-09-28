@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-task {
+    width: 100%;
+    height: 30vh;
+}
+
+.input-task input {
+    margin-right: 5px;
+    padding: 5px;
+    border-radius: 12px;
+}
+
+.input-task input:focus{
+    outline: solid red;
+}
+
+button {
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
+}
+
+.list-tasks {
+    width: 100%;
+    height: 70vh;
+    justify-content: flex-start;
+    flex-direction: column;
+    overflow: auto;
+}
+
+input[type="checkbox"]{
+    margin-left: 5px;
+}
+
+.item {
+    justify-content: space-evenly;
+}
+
+.item * {
+    margin: 2px;
+}
